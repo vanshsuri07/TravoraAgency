@@ -1,4 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
 @import "../node_modules/@syncfusion/ej2-react-buttons/styles/material.css";
@@ -467,7 +467,7 @@
   .combo-box {
     @apply !p-3.5 !border w-full !border-light-400 !rounded-xl !text-base !text-dark-300 !font-normal;
   }
-} */
+}
 
 html,
 body {
@@ -535,10 +535,10 @@ body {
   padding-left: 36px;
   padding-right: 36px;
 }
-/* e-input-group-icon e-ddl-icon e-search-icon */
+e-input-group-icon e-ddl-icon e-search-icon
 
-/* .e-input-group-icon {
+.e-input-group-icon {
   position: absolute;
   top: 45px;
   right: 40px;
-} */
+}
