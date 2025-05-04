@@ -449,9 +449,10 @@
   .form-input {
     @apply p-3.5 border border-light-400 rounded-xl text-base text-dark-300 font-normal;
   }
-  .comboBox-popup {
+.comboBox-popup {
     @apply absolute z-10 top-24 bg-white border border-gray-200 rounded-xl shadow-200 h-[250px] w-full md:max-w-[660px] overflow-hidden;
-  }
+}
+
   .tripCard-pill {
     @apply bg-white py-1 px-2.5 w-fit rounded-[20px] absolute top-2.5 right-4 text-dark-100 text-sm font-semibold;
   }
