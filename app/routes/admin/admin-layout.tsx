@@ -8,20 +8,20 @@ import { getExistingUser, storeUserData } from "~/appwrite/auth";
 export async function clientLoader() {
   try {
     const user = await account.get();
-
+    
     if(!user.$id) return redirect('/sign-in');
-
+    
     const existingUser = await getExistingUser(user.$id);
-
+    
     if(existingUser?.status === 'user') {
-        return redirect('/');
+      return redirect('/');
     }
-
+    
     return existingUser?.$id ? existingUser : await storeUserData();
-} catch (e) {
+  } catch (e) {
     console.log('Error in clientLoader', e)
     return redirect('/sign-in')
-}
+  }
 }
 
 export default function AdminLayout() {

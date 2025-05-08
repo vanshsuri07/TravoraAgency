@@ -1,4 +1,3 @@
-import { users } from "~/constants";
 import { Header } from "../../../components"
 import {  ColumnDirective, ColumnsDirective ,GridComponent } from "@syncfusion/ej2-react-grids";
 import { cn } from "~/lib/utlis";
